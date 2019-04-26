@@ -42,4 +42,6 @@ import harding.compsci.graphics.*;
 
 a question: does someone know how to display as below format
 
-![alt text](https://github.com/appleve/CsharpVsJava/blob/master/images/namsapce_compare_image.JPG?raw=true)
+<p align="center">
+<img src="https://github.com/appleve/CsharpVsJava/blob/master/images/namsapce_compare_image.JPG?raw=true" title="C#"/>
+</p>
