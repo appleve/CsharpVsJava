@@ -1,0 +1,45 @@
+#C# :
+namespace Harding.Compsci.Graphics {
+  ...
+}
+
+or
+
+namespace Harding {
+  namespace Compsci {
+    namespace Graphics {
+      ...
+    }
+  }
+}
+
+// Import single class
+using Rectangle = Harding.CompSci.Graphics.Rectangle;
+
+// Import all class
+using Harding.Compsci.Graphics;
+
+#Java :
+package harding.compsci.graphics;
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Import single class
+import harding.compsci.graphics.Rectangle;
+
+// Import all classes
+import harding.compsci.graphics.*;  
+
+a question: does someone know how to display as below format
+
+![alt text](https://github.com/appleve/CsharpVsJava/blob/master/images/namsapce_compare_image.JPG?raw=true)
