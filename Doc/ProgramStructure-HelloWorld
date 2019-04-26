@@ -1,0 +1,30 @@
+Java:
+package hello;
+import xxx;
+public class HelloWorld {
+   public static void main(String[] args) {
+      System.out.println("Hello World");
+    }
+}	
+
+
+C#:
+using System;
+
+namespace Hello {
+   public class HelloWorld {
+      public static void Main(string[] args) {
+         Console.WriteLine("Hello World");
+      }
+   }
+}
+
+
+* package == namespace : you can understand it as folder structure where to list you class files
+
+* import == using : use/import the existing code package, please notice that before to use it in your project you have to add the package to the project reference
+
+* main == Main: the main Method name, the first case of the name follow the different name rule or user habit (eg. java:theMethodName, C#:TheMethodName), 
+in one program only support one main method, the mthod name is case sensitive, 
+that means Main main will be recognised as different name, they can exist at the same time, you can <b>TRY IT</b> by yourself, and then you will unsterstand this
+more expressive. 
