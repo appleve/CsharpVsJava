@@ -1,0 +1,55 @@
+C#:
+Value Types
+bool
+byte, sbyte
+char
+short, ushort, int, uint, long, ulong
+float, double, decimal
+structures, enumerations
+
+Reference Types
+object    (superclass of all other classes)
+string
+arrays, classes, interfaces, delegates
+
+Convertions
+
+// int to string 
+int x = 123; 
+String y = x.ToString();  // y is "123"
+
+// string to int
+y = "456"; 
+x = int.Parse(y);   // or x = Convert.ToInt32(y);
+
+// double to int
+double z = 3.5; 
+x = (int) z;   // x is 3  (truncates decimal)
+----------------------------------------------------------------------------
+Java:
+Primitive Types
+boolean
+byte
+char
+short, int, long
+float, double
+
+
+Reference Types
+Object   (superclass of all other classes)
+String
+arrays, classes, interfaces
+
+Conversions
+
+// int to String 
+int x = 123; 
+String y = Integer.toString(x);  // y is "123"
+
+// String to int
+y = "456"; 
+x = Integer.parseInt(y);   // x is 456
+
+// double to int
+double z = 3.5; 
+x = (int) z;   // x is 3  (truncates decimal)
