@@ -1,0 +1,35 @@
+C#:
+enum Action {Start, Stop, Rewind, Forward};
+
+enum Status {Flunk = 50, Pass = 70, Excel = 90};
+No equivalent.
+
+
+
+
+
+Action a = Action.Stop;
+if (a != Action.Start)
+  Console.WriteLine(a);             // Prints "Stop"
+
+Status s = Status.Pass;
+Console.WriteLine((int) s);       // Prints "70"
+
+----------------------------------------------------------------------------
+Java:
+enum Action {Start, Stop, Rewind, Forward};
+
+// Special type of class 
+enum Status {
+  Flunk(50), Pass(70), Excel(90);
+  private final int value;
+  Status(int value) { this.value = value; }
+  public int value() { return value; } 
+};
+
+Action a = Action.Stop;
+if (a != Action.Start)
+  System.out.println(a);               // Prints "Stop"
+
+Status s = Status.Pass;
+System.out.println(s.value());      // Prints "70"
