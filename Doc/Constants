@@ -1,0 +1,10 @@
+C#:
+const double PI = 3.14;
+// Can be set to a const or a variable. May be initialized in a constructor. 
+readonly int MAX_HEIGHT = 9;
+---------------------------------------------------------------------------------------
+Java:
+// May be initialized in a constructor 
+final double PI = 3.14;
+
+prevent the value of the variable to be changed at running time
