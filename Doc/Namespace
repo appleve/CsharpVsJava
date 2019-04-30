@@ -40,8 +40,3 @@ import harding.compsci.graphics.Rectangle;
 // Import all classes
 import harding.compsci.graphics.*;  
 
-a question: does someone know how to display as below format
-
-<p align="center">
-<img src="https://github.com/appleve/CsharpVsJava/blob/master/images/namsapce_compare_image.JPG?raw=true" title="C#"/>
-</p>
