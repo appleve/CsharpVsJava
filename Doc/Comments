@@ -1,0 +1,13 @@
+C#:
+// Single line
+/* Multiple
+    line  */
+/// XML comments on a single line
+/** XML comments on multiple lines */
+
+----------------------------------------------------------------
+Java:
+// Single line
+/* Multiple
+    line  */
+/** Javadoc documentation comments */
